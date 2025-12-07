@@ -1,5 +1,7 @@
 <?php
 
+// TODO - if any action is unsuccessful then it should return an error status
+
 class Transactions extends Controller {
 
   private $transactionsModel;
@@ -29,8 +31,8 @@ class Transactions extends Controller {
       );
     }else {
       echo json_encode(
-        array('
-          message' => 'Transaction not created',
+        array(
+          'message' => 'Transaction not created',
           'idCreated' => -1
         ),
       );

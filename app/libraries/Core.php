@@ -12,6 +12,7 @@ class Core {
     
     $url = $this->getUrl();
 
+    // TODO - return 404 error in these cases?
     if(is_null($url))  $this->callDefaultAndExit();
     if(count($url) < 2) $this->callDefaultAndExit();
 

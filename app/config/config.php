@@ -15,7 +15,7 @@
   //echo APPROOT . "<br/>";
   
   //URL root
-  define('URLROOT', 'http://localhost/api-invtrack');
+  define('URLROOT', 'http://localhost/investscope-api');
 
   //Site name
   define('SITENAME', 'MVC FRAMEWORK');
